@@ -1,0 +1,30 @@
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.link a {
+    display: block;
+    background: #F98909;
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 320px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.link a:hover {
+    background: #DC6C11;
+}
+
+.link p {
+    color: #888;
+    padding: 15px;
+}

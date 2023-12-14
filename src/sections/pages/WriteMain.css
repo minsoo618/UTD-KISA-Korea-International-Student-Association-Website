@@ -1,0 +1,38 @@
+.FlexRow_c {
+    padding-top: 8%;
+    padding-left:0%;
+    padding-right:auto;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.FlexCol_c {
+    display: block;
+    justify-content: space-between;
+}
+
+.upload {
+    padding: 1%;
+    border-radius: 5px;
+    color: white;
+}
+
+.upload:hover {
+    background-color: blue;
+}
+
+.borderBox {
+    justify-items: center;
+}
+
+.feedback-input {
+    border-radius: 5px;
+}
+
+.d-block_w-100 {
+    padding-bottom: auto;
+}

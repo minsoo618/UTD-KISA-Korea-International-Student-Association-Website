@@ -1,0 +1,198 @@
+.all{
+    padding:2%;
+    
+}
+
+.DScontainer{
+
+    padding:6%;
+    margin:auto;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.DSkisaform{
+    
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+
+   
+
+}
+
+.DSslogan{
+   flex: 1;
+   flex-direction: row;
+    text-align: left;
+    line-height: 0.8cm;
+    font-size: 18px;
+    
+   
+    font-weight: bolder;
+    text-shadow: 1cm;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    
+
+}
+
+.DStopside{
+    display: flex;
+   
+}
+
+.DSbutton{
+    font-size: 20px;
+    color:white;
+    padding:4px 13px; 
+    background:black;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 6px; 
+    margin-top: 1%;
+   margin-left: 94%;
+    
+}
+
+.DSlogo1{
+    
+    display:flex;
+    flex-direction: row;
+     justify-content: center;
+    align-items: center;
+    
+   
+
+}
+
+.DSlogoOne{
+   
+    width: 35vw;
+    height: auto;
+   
+}
+
+.DSEmailInput{
+font-size: 16px;
+font-weight: bold;
+
+}
+
+.--text-center{
+   
+    margin:auto;
+   
+
+}
+
+.DSsocialMedia{
+    
+    max-width: 750px;
+    display: flex;
+    white-space: nowrap;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    font-size: 50px;
+    
+}
+
+textarea{
+  
+   min-width: 100%;
+   max-width: 100%;
+   min-height: 300px;
+   max-height: 300px;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 1%;
+
+ 
+}
+textarea::-webkit-input-placeholder {
+    font-size: 20px; 
+  }
+
+.DSsecondHead{
+    
+    font-weight:bold;
+    color:black;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-size: 40px;
+    text-align: center;  
+    
+    font-style: normal;
+   
+}
+.form-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: left;
+ 
+    
+
+}
+.DSkisaform{
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+     
+ }
+ 
+.ContactInformationHeading{
+    font-size: 43px;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+form{
+    padding:0;
+}
+
+.form-control{
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    height: 35px;
+    padding: 8px;
+    width: 100%;
+    
+
+}
+label {
+    
+    width: 5%;
+  }
+
+.DSOtherContact{
+    font-size: 16px;
+    margin-top: 8%;
+    padding-left: 21%;    
+
+    color:black;
+
+}
+
+a:link{
+    color:#FF6961;
+}
+
+a:visited{
+    color:#FF6961;
+}
+a:active{
+    color:#FF6961;
+}

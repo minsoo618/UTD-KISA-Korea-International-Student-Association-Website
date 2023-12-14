@@ -1,0 +1,102 @@
+.parent {
+    width: 100%; /* set the width of the parent container to 100% */
+    height: 100%; /* set the height of the parent container to 100% */
+    display: flex; /* set the display property to flex */
+}
+
+.parent .box {
+    width: 50%; /* adjust the width to your desired size */
+    margin: 0 auto;
+    margin-bottom: 5%;
+    padding: 20px; /* add some padding to the elements inside the box */
+    border: 2px solid #ccc; /* add a border around the box */
+    border-radius: 10px; /* add rounded corners to the box */
+    background-color: white; /* add a background color to the box */
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Add some margin and padding to the elements inside the box */
+.parent .box .element {
+    margin: 10px 0; /* add some margin between the elements */
+    padding: 10px; /* add some padding to the elements */
+}
+
+/* Add some styling to the paragraph inside the box */
+.parent .box .element .newline {
+    font-size: 20px;
+    color: black;
+    line-height: 2.0; /* increase the line height for better readability */
+    white-space: pre-line;
+    padding: 10px;
+    border: 1px solid #F0F0F0;
+    border-radius: 5px;
+    background-color: #FDFDFD;
+}
+
+.top {
+    display: flex;
+}
+
+.top {
+    display: flex; /* set the display property to flex */
+}
+
+.top-left {
+    float: left; /* position the div to the left */
+    width: 50%; /* adjust the width to your desired size */
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin: 0; /* remove the margin */
+    text-align: left;
+}
+
+.top-right {
+    float: right; /* position the div to the right */
+    width: 50%; /* adjust the width to your desired size */
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin: 0; /* remove the margin */
+    text-align: right;
+}
+
+/* Add some styling to the heading inside the box */
+.parent .box .element h1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #FF7780;
+    margin: 0; /* remove the margin */
+}
+
+/* Media Queries */
+@media (max-width: 768px) { /* styles for screens smaller than 768px */
+  .box {
+    width: 100%; /* make the box take up the full width of the screen */
+    border-radius: 0; /* remove rounded corners */
+  }
+  .box .element {
+    margin: 5px 0; /* reduce the margin between the elements */
+    padding: 5px; /* reduce the padding on the elements */
+  }
+  .box .element h2 {
+    font-size: 16px; /* reduce the font size of the heading */
+  }
+  .box .element p {
+    font-size: 12px; /* reduce the font size of the paragraph */
+  }
+}   
+
+.img-container {
+    width: 100%;
+    height: auto;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
